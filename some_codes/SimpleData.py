@@ -83,3 +83,6 @@ arg_loser_name = df[df.winner_ioc == "ARG"].pivot_table(
     aggfunc="sum"    
 )
 arg_loser_name.plot(figsize=(15,10))
+
+# different elements of one column
+arg_loser_name.SF.unique
